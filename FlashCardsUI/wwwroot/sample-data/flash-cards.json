@@ -1,0 +1,137 @@
+[
+    {
+        "id": "73869fa7-3089-41e7-8c65-faa1d82d07d0",
+        "name": "Abstract Factory",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "0952dc45-28b8-4970-8bb8-b08e5a41e120",
+        "name": "Builder",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "5ca3b025-7d85-4044-87bd-78ea87113a18",
+        "name": "Factory Method",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "3e3ccb03-6538-494c-90b0-be3b95f02d3f",
+        "name": "Object Pool",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "93fb308e-0552-4a61-8881-aa2636728b85",
+        "name": "Prototype",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "d670572e-b877-4c65-99a2-302ae7b4f6f6",
+        "name": "Singleton",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Creational Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "bc21a864-a598-43dd-8651-2188595a2a0e",
+        "name": "Adapter",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "2cfc0cf2-8dfe-4355-bd4d-9527ca833a20",
+        "name": "Bridge",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "1012b1d2-65fc-4cfa-85c6-e20cebdafbb3",
+        "name": "Composite",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "db2af2fc-8691-49af-9ff3-f8740bf64248",
+        "name": "Decorator",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "fd1744e1-4e5b-4633-a321-c3e16eb2e183",
+        "name": "Facade",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "403445de-ccfc-43e2-b4b1-3d516aaf51d9",
+        "name": "Flyweight",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "5d9a3780-76b2-428d-abc1-67adb6cc457b",
+        "name": "Private Class Data (Not always listed)",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "f9adca17-bf35-4ec2-a976-6b0002954985",
+        "name": "Proxy",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Structural Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "",
+        "name": "",
+        "type": "Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    }
+]

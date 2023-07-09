@@ -1,0 +1,126 @@
+@page "/flashcards"
+@inject HttpClient Http
+
+<PageTitle>FlashCards</PageTitle>
+
+<h1>FlashCards</h1>
+
+<p>Study</p>
+
+@if (flashCards == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>GUID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Categories</th>
+                <th>Link</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var flashCard in flashCards)
+            {
+                <tr>
+                    <td>@flashCard.id?.ToString()</td>
+                    <td>@flashCard.name?.ToString()</td>
+                    <td>@flashCard.type?.ToString()</td>
+                    <td>@flashCard.description?.ToString()</td>
+                    <td>@flashCard.categories?.ToString()</td>
+                    <td>@flashCard.detailsLink?.ToString()</td>
+                    <td>
+                        <a click="" title="Edit" aria-label="Edit"><span class="oi oi-pencil me-2" aria-hidden="true"></span></a> 
+                        <a click="" title="Remove" aria-label="Remove"><span class="oi oi-trash me-2" aria-hidden="true"></span></a></td>
+                </tr>
+            }
+                <tr>
+                    <td><input placeholder="new" @bind="newFlashCardId" /></td>
+                    <td><input placeholder="" @bind="newFlashCardName" /></td>
+                    <td><input placeholder="" @bind="newFlashCardType" /></td>
+                    <td><input placeholder="" @bind="newFlashCardDescription" /></td>
+                    <td><input placeholder="" @bind="newFlashCardCategories" /></td>
+                    <td><input placeholder="" @bind="newFlashCardDetailsLink" /></td>
+                    <td><button @onclick="AddFlashCard">Add</button></td>
+                </tr>
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<FlashCard>? flashCards;
+
+    private string? newFlashCardId;
+    private string? newFlashCardName;
+    private string? newFlashCardType;
+    private string? newFlashCardDescription;
+    private string? newFlashCardCategories;
+    private string? newFlashCardDetailsLink;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try 
+        {
+            flashCards = await Http.GetFromJsonAsync<List<FlashCard>>("sample-data/flash-cards.json");
+        } 
+        catch (Exception)
+        {
+            flashCards = new List<FlashCard>();
+        }
+    }
+
+    private void AddFlashCard()
+    {
+        if (!string.IsNullOrWhiteSpace(newFlashCardName))
+        {
+            if (flashCards == null)
+            {
+                flashCards = new List<FlashCard>();
+            }
+
+            flashCards.Add(new FlashCard 
+            { 
+                id = !string.IsNullOrWhiteSpace(newFlashCardId) ? newFlashCardId : Guid.NewGuid().ToString(),
+                name =  newFlashCardName,
+                type = newFlashCardType,
+                description = newFlashCardDescription,
+                categories = newFlashCardCategories,
+                detailsLink = newFlashCardDetailsLink,
+                isActive = true
+            });
+            ResetNewFlashCard();
+        }
+    }
+
+    private void ResetNewFlashCard()
+    {
+        newFlashCardId = string.Empty;
+        newFlashCardName = string.Empty;
+        newFlashCardType = string.Empty;
+        newFlashCardDescription = string.Empty;
+        newFlashCardCategories = string.Empty;
+        newFlashCardDetailsLink = string.Empty;
+    }
+
+    private void RemoveFlashCard(FlashCard removeFlashCard)
+    {
+        removeFlashCard.isActive = false;
+    }
+
+    public class FlashCard
+    {
+        public string? id { get; set; }
+        public string? name { get; set; }
+        public string? type { get; set; }
+        public string? description { get; set; }
+        public string? categories { get; set; }
+        public string? detailsLink { get; set; }
+        public bool isActive { get; set; }
+    }
+}
