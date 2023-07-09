@@ -2,7 +2,7 @@
     {
         "id": "73869fa7-3089-41e7-8c65-faa1d82d07d0",
         "name": "Abstract Factory",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -11,7 +11,7 @@
     {
         "id": "0952dc45-28b8-4970-8bb8-b08e5a41e120",
         "name": "Builder",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -20,7 +20,7 @@
     {
         "id": "5ca3b025-7d85-4044-87bd-78ea87113a18",
         "name": "Factory Method",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -29,7 +29,7 @@
     {
         "id": "3e3ccb03-6538-494c-90b0-be3b95f02d3f",
         "name": "Object Pool",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -38,7 +38,7 @@
     {
         "id": "93fb308e-0552-4a61-8881-aa2636728b85",
         "name": "Prototype",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -47,7 +47,7 @@
     {
         "id": "d670572e-b877-4c65-99a2-302ae7b4f6f6",
         "name": "Singleton",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Creational Design Patterns",
         "detailsLink": "Later",
@@ -56,7 +56,7 @@
     {
         "id": "bc21a864-a598-43dd-8651-2188595a2a0e",
         "name": "Adapter",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -65,7 +65,7 @@
     {
         "id": "2cfc0cf2-8dfe-4355-bd4d-9527ca833a20",
         "name": "Bridge",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -74,7 +74,7 @@
     {
         "id": "1012b1d2-65fc-4cfa-85c6-e20cebdafbb3",
         "name": "Composite",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -83,7 +83,7 @@
     {
         "id": "db2af2fc-8691-49af-9ff3-f8740bf64248",
         "name": "Decorator",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -92,7 +92,7 @@
     {
         "id": "fd1744e1-4e5b-4633-a321-c3e16eb2e183",
         "name": "Facade",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -101,7 +101,7 @@
     {
         "id": "403445de-ccfc-43e2-b4b1-3d516aaf51d9",
         "name": "Flyweight",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -110,7 +110,7 @@
     {
         "id": "5d9a3780-76b2-428d-abc1-67adb6cc457b",
         "name": "Private Class Data (Not always listed)",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
@@ -119,16 +119,115 @@
     {
         "id": "f9adca17-bf35-4ec2-a976-6b0002954985",
         "name": "Proxy",
-        "type": "Pattern",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Structural Design Patterns",
         "detailsLink": "Later",
         "isActive": true
     },
     {
-        "id": "",
-        "name": "",
-        "type": "Pattern",
+        "id": "d35134e3-8c4d-40f8-9f91-c7c968c80202",
+        "name": "Chain of Responsibility",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "14642135-14a2-4543-81b3-d9147cc54974",
+        "name": "Command",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "cd33beb2-32c5-41ae-8382-030c413db019",
+        "name": "Interpreter",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "15ba5a32-1761-470b-8a8f-5883b75b64c5",
+        "name": "Iterator",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "276e5604-1d31-47d6-ae79-369f7ee78827",
+        "name": "Mediator",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "3ce2fa64-44c0-46aa-9394-f69a712f8568",
+        "name": "Memento",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "79c4d669-06ed-4885-88dc-872c651a61fc",
+        "name": "Null Object (Not always listed)",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "7b325889-adf1-4f6b-b720-60160c65ee0d",
+        "name": "Observer",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "27e1031c-f9de-4732-9c19-7e9fac416ee7",
+        "name": "State",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "2b19b4b7-f65c-46c7-b410-204f350085e7",
+        "name": "Strategy",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "2d499dc1-954b-4e65-90bd-dfd2bc535938",
+        "name": "Template Method",
+        "type": "Design Pattern",
+        "description": "",
+        "categories": "Behavioral Design Patterns",
+        "detailsLink": "Later",
+        "isActive": true
+    },
+    {
+        "id": "cf0e993a-e207-4557-a689-806dbc61df96",
+        "name": "Visitor",
+        "type": "Design Pattern",
         "description": "",
         "categories": "Behavioral Design Patterns",
         "detailsLink": "Later",
