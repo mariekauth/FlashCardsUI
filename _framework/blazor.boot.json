@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "FlashCardsUI.dll": "sha256-OF9sL3x8ERkvNjtJfzgt1\/pKxqsvMSfL1jHj1C4qecA=",
+      "FlashCardsUI.dll": "sha256-hpz+lTr86lGQgspSh13SMSE3PnzTF\/GES3eFAb7EALA=",
       "Microsoft.AspNetCore.Components.dll": "sha256-gzOGCouHwjFyd2px6rqwTy\/I1tKhbDynwbf\/cg09OQs=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-bbgzQYPE082QdUt0EcBtZLDyDmnvdDhSScTKu2fHCSw=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-pl03S7fd1jilGpYW7JZTsaURQnwvpxxz77doA9j9cUc=",
