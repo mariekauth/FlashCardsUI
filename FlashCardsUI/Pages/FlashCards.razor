@@ -1,5 +1,6 @@
 @page "/flashcards"
 @inject HttpClient Http
+@inject IJSRuntime JSRuntime
 
 <PageTitle>FlashCards</PageTitle>
 
@@ -111,9 +112,13 @@ else
         newFlashCardDetailsLink = string.Empty;
     }
 
-    private void RemoveFlashCard(FlashCard removeFlashCard)
+    private async void RemoveFlashCard(FlashCard flashCard)
     {
-        removeFlashCard.isActive = false;
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Are you sure you want to remove {flashCard.name}?")) 
+        {
+            flashCard.isActive = false;
+            StateHasChanged();
+        }
     }
 
     public class FlashCard
